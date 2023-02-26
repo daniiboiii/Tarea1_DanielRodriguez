@@ -1,18 +1,23 @@
 package bl;
 
+import java.util.ArrayList;
+
 public class usuarios {
     private String nombre;
     private String cedula;
     private String telefono;
     private String dirreccion;
     private boolean estado;
+    private ArrayList<Integer> Usuarios;
 
-    public usuarios(String nombre, String cedula, String telefono, String dirreccion, boolean estado) {
+
+    public usuarios(String nombre, String cedula, String telefono, String dirreccion, boolean estado, ArrayList<Integer> Usuarios) {
         this.nombre = nombre;
         this.cedula = cedula;
         this.telefono = telefono;
         this.dirreccion = dirreccion;
         this.estado = estado;
+        Usuarios = new ArrayList<>();
     }
     public usuarios () {
 
