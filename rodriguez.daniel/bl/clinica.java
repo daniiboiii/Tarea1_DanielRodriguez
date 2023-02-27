@@ -1,15 +1,20 @@
 package bl;
 
+import java.util.ArrayList;
+
 public class clinica {
     private String info;
     private String nombre;
     private String dirreccion;
+    private ArrayList<Integer> clinica;
 
-    public clinica(String info, String nombre, String dirreccion) {
+    public clinica(String info, String nombre, String dirreccion, ArrayList<Integer> clinica) {
         this.info = info;
         this.nombre = nombre;
         this.dirreccion = dirreccion;
+        this.clinica = clinica;
     }
+
     public clinica () {
 
     }
